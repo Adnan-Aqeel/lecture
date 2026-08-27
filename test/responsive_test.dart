@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lecture/utils/responsive.dart';
+import 'package:lecture/core/utils/responsive.dart';
 
 void main() {
   testWidgets('uses phone and tablet breakpoints from available width',

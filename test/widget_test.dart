@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lecture/Screens/Recruitment/pipeline_board.dart';
+import 'package:lecture/presentation/screens/recruitment/pipeline_board.dart';
 
-import 'package:lecture/Screens/Reports/loan_report.dart';
-import 'package:lecture/Screens/Recruitment/pipeline_builder.dart';
-import 'package:lecture/Screens/Recruitment/job_positions.dart';
-import 'package:lecture/Screens/Wallet_management/policies.dart';
-import 'package:lecture/Screens/Loan_management/loan.dart';
-import 'package:lecture/Screens/Expense_Management/approval_pipelines.dart';
+import 'package:lecture/presentation/screens/reports/loan_report.dart';
+import 'package:lecture/presentation/screens/recruitment/pipeline_builder.dart';
+import 'package:lecture/presentation/screens/recruitment/job_positions.dart';
+import 'package:lecture/presentation/screens/wallet_management/policies.dart';
+import 'package:lecture/presentation/screens/loan_management/loan.dart';
+import 'package:lecture/presentation/screens/expense_management/approval_pipelines.dart';
 
 void main() {
   testWidgets('switches between summary and annual loan report views',
